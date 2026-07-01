@@ -53,8 +53,9 @@ def style_base_layout():
                 font-size: 2rem !important;
                 line-height:0.9 !important;
                 margin-bottom:0rem !important;
-                color: #E03EFF;
+                color: black !important;
             }
+            
             
             h3, h4, p{
                 font-family: 'Outfit', sans-serif;
@@ -90,6 +91,5 @@ def style_base_layout():
             button:hover{
                 transform: scale(1.05)
             }
-            
         </style>
     """, unsafe_allow_html=True)
