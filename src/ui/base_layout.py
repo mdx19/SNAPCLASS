@@ -45,7 +45,7 @@ def style_base_layout():
                 font-size: 3.5rem !important;
                 line-height:1.1 !important;
                 margin-bottom:0rem !important;
-                color: #E03EFF;
+                color: #E03EFF ;
             }
             
             h2 {
@@ -53,7 +53,12 @@ def style_base_layout():
                 font-size: 2rem !important;
                 line-height:0.9 !important;
                 margin-bottom:0rem !important;
-                color: black !important;
+                color: #282828 !important;
+                
+            }
+            
+            h2.snap-title {
+                color: #5865F2 !important;
             }
             
             
@@ -63,7 +68,7 @@ def style_base_layout():
             
             button{
                 border-radius: 1.5rem !important;
-                background: #5865F2 !important;
+                background-color: #5865F2 !important;
                 color: white !important;
                 padding: 10px 20px !important;
                 border: none !important;
@@ -73,7 +78,7 @@ def style_base_layout():
             
             button[kind="secondary"]{
                 border-radius: 1.5rem !important;
-                background: #EB495E !important;
+                background-color: #EB459E !important;
                 color: white !important;
                 padding: 10px 20px !important;
                 border: none !important;
@@ -81,7 +86,7 @@ def style_base_layout():
             }
             button[kind="tertiary"]{
                 border-radius: 1.5rem !important;
-                background: black !important;
+                background-color: black !important;
                 color: white !important;
                 padding: 10px 20px !important;
                 border: none !important;
